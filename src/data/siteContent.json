@@ -1,0 +1,66 @@
+{
+  "siteName": "Unique Ngo Satna",
+  "ngoInfo": {
+    "name": "UNIQUE COMPUTER TAKNIKI SHIKSHA SEVA SAMITI",
+    "name1": "UNIQUE COMPUTER ",
+    "name2": "TAKNIKI SHIKSHA SEVA SAMITI",
+    "number1": "+91-9424337948",
+    "number2": "+91-9424337948",
+    "mail": "unique6471@gmail.com",
+    "address": " 2/210 gali no 1 near patel kiran store Near old Post Office jawahar nagar satna 485001",
+    "aim": "To empower underprivileged communities through accessible, quality education and skill development, fostering lifelong learning and brighter futures.",
+    "colleges": [
+      {
+        "name": "TechForRural College of Technology",
+        "location": "Village A, District X",
+        "courses": [
+          "Computer Science",
+          "Electronics",
+          "IT"
+        ]
+      },
+      {
+        "name": "Rural Polytechnic Institute",
+        "location": "Town B, District Y",
+        "courses": [
+          "Electrical",
+          "Mechanical",
+          "Welding"
+        ]
+      },
+      {
+        "name": "Tech Skills ITI",
+        "location": "Block C, District Z",
+        "courses": [
+          "Fitter",
+          "Plumber",
+          "Electrician"
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "title": "Welcome to EcoStudy",
+    "subtitle": "Empowering Education for Everyone"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are committed to providing quality education and resources for students worldwide."
+  },
+  "courses": [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "description": "Learn HTML, CSS, and JavaScript from scratch."
+    },
+    {
+      "id": 2,
+      "title": "Graphic Design",
+      "description": "Master the tools of modern design."
+    }
+  ],
+  "contact": {
+    "title": "Contact Us",
+    "message": "Have questions? Reach out to us through our contact form."
+  }
+}

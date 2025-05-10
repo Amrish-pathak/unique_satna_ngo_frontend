@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "title": "About Us",
+    "description": "Learn more about our journey, mission, and the change we’re creating together."
+  },
+  "mission": "Our mission is to empower underprivileged communities through education, healthcare, and sustainable development initiatives. We strive to create equal opportunities and uplift lives with dignity and compassion.",
+  "vision": "We envision a world where every individual has access to the basic rights of education, health, and livelihood — regardless of their socio-economic background.",
+  "history": "Founded in 2010 by a group of passionate volunteers, our NGO started with a single classroom in a rural village. Over the years, we've expanded our reach to over 50+ villages, impacting thousands of lives through grassroots initiatives and community-led programs.",
+  "impact": [
+    { "label": "Years of Service", "value": "15+" },
+    { "label": "Children Educated", "value": "10,000+" },
+    { "label": "Healthcare Camps", "value": "120+" },
+    { "label": "Active Volunteers", "value": "80+" }
+  ],
+  "team": [
+    { "name": "Anita Sharma", "role": "Founder & Director" },
+    { "name": "Rahul Verma", "role": "Program Manager" },
+    { "name": "Sneha Iyer", "role": "Community Outreach Lead" }
+  ]
+}
