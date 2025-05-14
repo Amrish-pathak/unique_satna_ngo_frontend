@@ -11,30 +11,47 @@
     "aim": "To empower underprivileged communities through accessible, quality education and skill development, fostering lifelong learning and brighter futures.",
     "colleges": [
       {
-        "name": "TechForRural College of Technology",
-        "location": "Village A, District X",
+        "name": "Unique College of Technology, Amarpatan",
+        "location": "New Bus Stand, Amarpatan, Satna",
         "courses": [
           "Computer Science",
           "Electronics",
-          "IT"
+          "IT",
+          "BSc",
+          "MSc",
+          "BA",
+          "MA"
         ]
       },
       {
-        "name": "Rural Polytechnic Institute",
-        "location": "Town B, District Y",
+        "name": "Shri Siddharth Private ITI Amarpatan",
+        "location": "Ward no.2 Chaturvedi Colony near bus stand,satna road,amarpatan Satna",
         "courses": [
-          "Electrical",
-          "Mechanical",
+          "Healthcare",
+          "IT-ITeS",
           "Welding"
         ]
       },
       {
-        "name": "Tech Skills ITI",
-        "location": "Block C, District Z",
+        "name": "CHANAKYA PRIVATE ITI PANNA",
+        "location": "near jagat chowki,satna naka,panna",
         "courses": [
           "Fitter",
           "Plumber",
-          "Electrician"
+          "Electrician",
+          "Telecom",
+          "Power"
+        ]
+      },
+      {
+        "name": "Unique Paramedical Collage Amarpatan",
+        "location": "New Bus Stand, Amarpatan, Satna",
+        "courses": [
+          "DMLT",
+          "BMLT",
+          "OTT",
+          "X-RAY"
+          
         ]
       }
     ]
