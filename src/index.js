@@ -63,7 +63,7 @@ const router = createBrowserRouter([
       // { path: "rank", element: <Rank /> },
       // { path: "cashout", element: <Cashout /> },
       { path: "about", element: <AboutUs /> },
-      { path: "contact", element: <ContactUs /> },
+      { path: "contact-us", element: <ContactUs /> },
       { path: "dashboardlogin", element: <NotAdmin236 /> },
       { path: "services/tdl", element: <Tdl /> },
     ],
