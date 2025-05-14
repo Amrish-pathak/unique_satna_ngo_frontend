@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import SocialButtons from "./SocialButtons";
+import content from '../data/siteContent.json';
+
 
 const ContactUsForm = () => {
     const [loading, setLoading] = useState(false);
-
+const { name, number1, number2, mail, address, aim } = content.ngoInfo;
     const [formData, setFormData] = useState({
         name: "",
         contactNumber: "",
@@ -26,7 +28,7 @@ const ContactUsForm = () => {
         e.preventDefault();
         setLoading(true); // Start loading
         try {
-            const response = await fetch("https://gullibackend.onrender.com/api/submit-form", {
+            const response = await fetch("https://gullibackend.onreder.com/api/submit-form", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData),
@@ -66,16 +68,16 @@ const ContactUsForm = () => {
 
                     <div className="flex items-center gap-4">
                         <FaEnvelope className="text-xl" />
-                        <span>gullitech.rewa@gmail.com</span>
+                        <span>{mail}</span>
                     </div>
                     <div className="flex items-center gap-4">
                         <FaPhoneAlt className="text-xl" />
-                        <span>+91-9755377307</span>
+                        <span>{number1}, {number2}</span>
                     </div>
                     <div className="flex items-start gap-4">
                         <FaMapMarkerAlt className="text-xl mt-1" />
                         <span>
-                            MPS Complex, Near Subhash Chowk Boda Bag Road, Civil Lines, Rewa (M.P.) - 486001
+                            {address}
                         </span>
                     </div>
 
@@ -93,8 +95,8 @@ const ContactUsForm = () => {
                         <Input name="contactNumber" label="Contact Number" type="number" value={formData.contactNumber} onChange={handleChange} required placeholder="Enter your phone number" />
                         <Input name="email" label="Email" type="email" value={formData.email} onChange={handleChange} required placeholder="Enter your email" />
                         <Input name="address" label="Address" value={formData.address} onChange={handleChange} required placeholder="Enter your address" />
-                        <Input name="businessName" label="Business Name" value={formData.businessName} onChange={handleChange} required placeholder="Enter your business name" />
-                        <Input name="gstin" label="GSTIN (if any)" value={formData.gstin} onChange={handleChange} placeholder="Enter GSTIN if applicable" />
+                        {/* <Input name="businessName" label="Business Name" value={formData.businessName} onChange={handleChange} required placeholder="Enter your business name" /> */}
+                        {/* <Input name="gstin" label="GSTIN (if any)" value={formData.gstin} onChange={handleChange} placeholder="Enter GSTIN if applicable" /> */}
 
                     </div>
 
@@ -108,12 +110,9 @@ const ContactUsForm = () => {
                             className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         >
                             <option value="">-- Select an Option --</option>
-                            <option value="Tally Prime Silver">Tally Prime Silver</option>
-                            <option value="Tally Prime Gold">Tally Prime Gold</option>
-                            <option value="Tally Software Service - Silver">Tally Software Service - Silver</option>
-                            <option value="Tally Software Service - Gold">Tally Software Service - Gold</option>
-                            <option value="Tally Prime Support">Tally Prime Support</option>
-                            <option value="Tally Prime On Cloud">Tally Prime On Cloud</option>
+                            <option value="About NGO">About NGO</option>
+                            <option value="Other">Other</option>
+                           
                         </select>
                     </div>
 

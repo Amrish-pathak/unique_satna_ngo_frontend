@@ -50,7 +50,7 @@ export default function Header() {
               </div>
             )}
           </div>
-          <NavLink href="#contact" label="Contact" />
+          <NavLink href="/contact-us" label="Contact" />
           <button className="bg-indigo-600 text-white px-5 py-2 rounded-md hover:bg-indigo-700 transition text-sm font-medium">
             Donate
           </button>
@@ -69,14 +69,15 @@ export default function Header() {
       {/* Mobile Navigation */}
       {mobileOpen && (
         <div className="md:hidden px-4 pb-4 pt-2 space-y-2 animate-fadeIn">
-          <NavLinkMobile href="#about" label="About" />
+          <NavLink href="/" label="Home" />
+          <NavLink href="/about" label="About" />
           <NavLinkMobile href="#programs" label="Programs" />
           <div className="space-y-1">
             <p className="font-medium text-gray-700">Get Involved</p>
             <a href="#volunteer" className="block ml-4 text-sm text-gray-600 hover:text-indigo-600">Volunteer</a>
             <a href="#partner" className="block ml-4 text-sm text-gray-600 hover:text-indigo-600">Partner</a>
           </div>
-          <NavLinkMobile href="#contact" label="Contact" />
+          <NavLink href="/contact-us" label="Contact" />
           <button className="w-full bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition text-sm font-medium">
             Donate
           </button>
